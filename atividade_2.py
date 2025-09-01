@@ -20,6 +20,8 @@ while True:
         elif sabor == 'S':
             print("Obrigado por visitar a Gabriel Peluzio Corp!")
             exit()
+        elif sabor != 'BA' and sabor != 'FG' and sabor != 'S':
+            print("Sabor inválido! Tente novamente.")
         continue
      # EXIGÊNCIA 2: Input do sabor com validação
     while True:
@@ -29,6 +31,8 @@ while True:
         elif tamanho == 'S':
             print("Obrigado por visitar a Gabriel Peluzio Corp!")
             exit()
+        elif tamanho != 'P' and tamanho != 'M' and tamanho != 'G' and tamanho != 'S':
+            print("Tamanho inválido! Tente novamente.")
         continue
     # EXIGÊNCIA 3: Input do tamanho com validação
     if sabor == 'BA':
